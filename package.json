@@ -1,0 +1,26 @@
+{
+  "name": "anihall",
+  "version": "1.0.0",
+  "description": "Projeto destinado para estudo pessoal.",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CauaDecoder/anihall.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CauaDecoder/anihall/issues"
+  },
+  "homepage": "https://github.com/CauaDecoder/anihall#readme",
+  "dependencies": {
+    "gulp": "^5.0.0",
+    "gulp-autoprefixer": "^9.0.0",
+    "gulp-sass": "^6.0.1",
+    "gulp-uglify": "^3.0.2",
+    "sass": "^1.86.3"
+  }
+}
