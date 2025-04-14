@@ -1,0 +1,1 @@
+Projeto destinado para estudo pessoal.
