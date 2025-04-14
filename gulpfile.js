@@ -7,7 +7,7 @@ const uglify = require("gulp-uglify");
  
 function compileSass() {
   return gulp
-    .src("sass/*.sass")
+    .src("sass/*.scss")
     .pipe(sass({ outputStyle: "compressed",
       silenceDeprecations: ['import'] }))
     
@@ -60,7 +60,7 @@ gulp.task("browser-sync", browser);
  
 
 function watch() {
-  gulp.watch("scss/*.scss", compileSass);
+  gulp.watch("sass/*.scss", compileSass);
   gulp.watch("assets/css/lib/*.css", pluginsCSS);
   gulp.watch("*.html").on("change", browserSync.reload);
   gulp.watch("assets/js/scripts/*", gulpJs);
