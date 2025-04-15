@@ -1,10 +1,23 @@
 header .menu {
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
-header ul {
+header .menu ul {
   display: flex;
   gap: 2em;
+}
+header .menu button {
+  border-radius: 2em;
+  padding: 10px;
+}
+
+* {
+  font-family: "Roboto", sans-serif;
+}
+
+a {
+  text-decoration: none;
 }
 
 li {

@@ -1,11 +1,17 @@
 header {
-        .menu {
-            display: flex;
-            justify-content: space-between;
-        }
+    .menu {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
 
         ul {
             display: flex;
             gap: 2em;
         }
+    
+        button {
+            border-radius: 2em;
+            padding: 10px;
+        }
+    }
 }
